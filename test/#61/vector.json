@@ -7,13 +7,13 @@
           "value": {
             "method": "burrow.transactAndHold",
             "params": {
-              "priv_key": "F27BB3C139C4C9A1F53E2EA0EB574303EB149A120E16B2B01C37AAD5C7C3227CA417E4CA5D378A609A04C7495EAACB2F46540FF03D86FDA22FE6697411548E04",
+              "priv_key": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
               "address": "",
               "data": "6060604052604051602080607183395060806040525160008054600160a060020a0319168217905550603d8060346000396000f3606060405260e060020a60003504636d4ce63c8114601a575b005b60005473ffffffffffffffffffffffffffffffffffffffff166060908152602090f300000000000000000000000088977a37d05a4fe86d09e88c88a49c2fcf7d6d8f",
               "gas_limit": 1000000,
               "fee": 1
             },
-            "id": "tk5iO+HQGbsmkbILCsK8oFDeE6ovTIFc1myR0LmY+ps=",
+            "id": "b4qaSIuLf2PxeJ87Ozv1xmFOhKqOSQx0IJPKt5I/8NY=",
             "jsonrpc": "2.0"
           }
         }
@@ -23,19 +23,19 @@
           "done": false,
           "value": {
             "result": {
-              "call_data": {
-                "caller": "72AE9DE4A502FD28207AEB404BFA6BEB5EA8F739",
-                "callee": "BA7E42ADF286DC3FD8D78363D0A2EDA745D0AA27",
-                "data": "6060604052604051602080607183395060806040525160008054600160A060020A0319168217905550603D8060346000396000F3606060405260E060020A60003504636D4CE63C8114601A575B005B60005473FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF166060908152602090F300000000000000000000000088977A37D05A4FE86D09E88C88A49C2FCF7D6D8F",
-                "value": 0,
-                "gas": 999937
+              "CallData": {
+                "Caller": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+                "Callee": "F63A819C9F9665A5AC5501C74F59F54868879603",
+                "Data": "6060604052604051602080607183395060806040525160008054600160A060020A0319168217905550603D8060346000396000F3606060405260E060020A60003504636D4CE63C8114601A575B005B60005473FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF166060908152602090F300000000000000000000000088977A37D05A4FE86D09E88C88A49C2FCF7D6D8F",
+                "Value": 0,
+                "Gas": 999937
               },
-              "origin": "72AE9DE4A502FD28207AEB404BFA6BEB5EA8F739",
-              "tx_id": "43B47998CE038808E9046B5F67BAB8DE04D288F0",
-              "return": "606060405260E060020A60003504636D4CE63C8114601A575B005B60005473FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF166060908152602090F3",
-              "exception": ""
+              "Origin": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+              "TxID": "466D667247AE3E4E3BB780A871337BF5616458AE",
+              "Return": "606060405260E060020A60003504636D4CE63C8114601A575B005B60005473FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF166060908152602090F3",
+              "Exception": ""
             },
-            "id": "tk5iO+HQGbsmkbILCsK8oFDeE6ovTIFc1myR0LmY+ps=",
+            "id": "b4qaSIuLf2PxeJ87Ozv1xmFOhKqOSQx0IJPKt5I/8NY=",
             "jsonrpc": "2.0"
           }
         }
@@ -46,11 +46,11 @@
           "value": {
             "method": "burrow.call",
             "params": {
-              "from": "72AE9DE4A502FD28207AEB404BFA6BEB5EA8F739",
-              "address": "BA7E42ADF286DC3FD8D78363D0A2EDA745D0AA27",
+              "from": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+              "address": "F63A819C9F9665A5AC5501C74F59F54868879603",
               "data": "6d4ce63c"
             },
-            "id": "lrPNA8dr3Rx51HAMIegjRXbWQdXDiQF5sQE5uf43g2o=",
+            "id": "DNNNhff8d2YkO4PWWqpUKT+jp9Ak0ktqtz1aE5Rwru0=",
             "jsonrpc": "2.0"
           }
         }
@@ -60,74 +60,20 @@
           "done": false,
           "value": {
             "result": {
-              "return": "00000000000000000000000088977a37d05a4fe86d09e88c88a49c2fcf7d6d8f",
-              "gas_used": 41
+              "Return": "00000000000000000000000088977A37D05A4FE86D09E88C88A49C2FCF7D6D8F",
+              "GasUsed": 41
             },
-            "id": "lrPNA8dr3Rx51HAMIegjRXbWQdXDiQF5sQE5uf43g2o=",
+            "id": "DNNNhff8d2YkO4PWWqpUKT+jp9Ak0ktqtz1aE5Rwru0=",
             "jsonrpc": "2.0"
           }
         }
       }
     ]
   },
-  "initDir": {
-    "genesis.json": {
-      "genesis_time": "2017-04-27T20:34:50.831Z",
-      "chain_id": "test-_61",
-      "params": {
-        "global_permissions": {
-          "base": {
-            "perms": 2302,
-            "set": 16383
-          },
-          "roles": []
-        }
-      },
-      "accounts": [
-        {
-          "address": "72AE9DE4A502FD28207AEB404BFA6BEB5EA8F739",
-          "amount": 99999999999999,
-          "name": "test-_61_full_000",
-          "permissions": {
-            "base": {
-              "perms": 16383,
-              "set": 16383
-            },
-            "roles": []
-          }
-        }
-      ],
-      "validators": [
-        {
-          "pub_key": [
-            1,
-            "A417E4CA5D378A609A04C7495EAACB2F46540FF03D86FDA22FE6697411548E04"
-          ],
-          "amount": 9999999999,
-          "name": "test-_61_full_000",
-          "unbond_to": [
-            {
-              "address": "72AE9DE4A502FD28207AEB404BFA6BEB5EA8F739",
-              "amount": 9999999999
-            }
-          ]
-        }
-      ]
-    },
-    "priv_validator.json": {
-      "address": "72AE9DE4A502FD28207AEB404BFA6BEB5EA8F739",
-      "pub_key": [
-        1,
-        "A417E4CA5D378A609A04C7495EAACB2F46540FF03D86FDA22FE6697411548E04"
-      ],
-      "priv_key": [
-        1,
-        "F27BB3C139C4C9A1F53E2EA0EB574303EB149A120E16B2B01C37AAD5C7C3227CA417E4CA5D378A609A04C7495EAACB2F46540FF03D86FDA22FE6697411548E04"
-      ],
-      "last_height": 0,
-      "last_round": 0,
-      "last_step": 0
-    }
+  "account": {
+    "address": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+    "pubKey": "091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
+    "privKey": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706"
   },
   "before": []
 }

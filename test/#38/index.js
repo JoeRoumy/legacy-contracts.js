@@ -28,11 +28,12 @@ describe('#38', function () {
       const abi = JSON.parse(compiled.interface)
       const contractFactory = manager.newContractFactory(abi)
 
-      return Promise.fromCallback((callback) =>
-        contractFactory.at(contract.address, callback)
-      ).then((secondContract) =>
-        new Promise((resolve, reject) => {
-          secondContract.Event.once((error, event) => {
+      return Promise.fromCallback((callback) => {
+        return contractFactory.at(contract.address, callback)
+      }
+      ).then((secondContract) => {
+        return new Promise((resolve, reject) => {
+          secondContract.Event.once(function (error, event) {
             if (error) {
               reject(error)
             } else {
@@ -40,9 +41,9 @@ describe('#38', function () {
             }
           })
 
-          contract.emit()
+          secondContract.emit()
         })
-      )
+      })
     })
   }))
 })

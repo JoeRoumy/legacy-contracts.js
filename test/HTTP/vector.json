@@ -7,13 +7,13 @@
           "value": {
             "method": "burrow.transactAndHold",
             "params": {
-              "priv_key": "B99699BB295C6F9CC2BEF3B3F680BECE84986F186BF7996866CA5212BE96D04AA923463492C95680DBEC3E2F16958D0507D5A8EAC37D860626C7C2B4289859AE",
+              "priv_key": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
               "address": "",
               "data": "6060604052603b8060106000396000f3606060405260e060020a600035046360fe47b1811460245780636d4ce63c14602e575b005b6004356000556022565b6000546060908152602090f3",
               "gas_limit": 1000000,
               "fee": 1
             },
-            "id": "k8fRt4uA6+VyTS9SfhibXpUncw5HPq/6o70vJZhlJyU=",
+            "id": "O4Aj8Tns5Sdme7goAUjttgkjjih2KdbTveuMV5/44x4=",
             "jsonrpc": "2.0"
           }
         }
@@ -23,19 +23,19 @@
           "done": false,
           "value": {
             "result": {
-              "call_data": {
-                "caller": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-                "callee": "5115562952C5F422012F89EA12E60FD8B56CD7B2",
-                "data": "6060604052603B8060106000396000F3606060405260E060020A600035046360FE47B1811460245780636D4CE63C14602E575B005B6004356000556022565B6000546060908152602090F3",
-                "value": 0,
-                "gas": 999985
+              "CallData": {
+                "Caller": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+                "Callee": "6C85F5D98DE94C0FFB5C82553B100D18566A58A5",
+                "Data": "6060604052603B8060106000396000F3606060405260E060020A600035046360FE47B1811460245780636D4CE63C14602E575B005B6004356000556022565B6000546060908152602090F3",
+                "Value": 0,
+                "Gas": 999985
               },
-              "origin": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-              "tx_id": "AF78A2B8D1DFE31C715CC39C9104B9441E9BD903",
-              "return": "606060405260E060020A600035046360FE47B1811460245780636D4CE63C14602E575B005B6004356000556022565B6000546060908152602090F3",
-              "exception": ""
+              "Origin": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+              "TxID": "56138F976D6D0DD14EBF38771F2001F9280B2624",
+              "Return": "606060405260E060020A600035046360FE47B1811460245780636D4CE63C14602E575B005B6004356000556022565B6000546060908152602090F3",
+              "Exception": ""
             },
-            "id": "k8fRt4uA6+VyTS9SfhibXpUncw5HPq/6o70vJZhlJyU=",
+            "id": "O4Aj8Tns5Sdme7goAUjttgkjjih2KdbTveuMV5/44x4=",
             "jsonrpc": "2.0"
           }
         }
@@ -46,13 +46,13 @@
           "value": {
             "method": "burrow.transactAndHold",
             "params": {
-              "priv_key": "B99699BB295C6F9CC2BEF3B3F680BECE84986F186BF7996866CA5212BE96D04AA923463492C95680DBEC3E2F16958D0507D5A8EAC37D860626C7C2B4289859AE",
-              "address": "5115562952C5F422012F89EA12E60FD8B56CD7B2",
+              "priv_key": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
+              "address": "6C85F5D98DE94C0FFB5C82553B100D18566A58A5",
               "data": "60fe47b1000000000000000000000000000000000000000000000000000000000000002a",
               "gas_limit": 1000000,
               "fee": 1
             },
-            "id": "RdGM9SDOrSakH1jaEMy+VYa8g41KWYcqlgiSA22Je6E=",
+            "id": "NL3djViQVFD5bkeQ/k2BzW8flBJ6oMitveGwBEgI9Bo=",
             "jsonrpc": "2.0"
           }
         }
@@ -62,19 +62,19 @@
           "done": false,
           "value": {
             "result": {
-              "call_data": {
-                "caller": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-                "callee": "5115562952C5F422012F89EA12E60FD8B56CD7B2",
-                "data": "60FE47B1000000000000000000000000000000000000000000000000000000000000002A",
-                "value": 0,
-                "gas": 999967
+              "CallData": {
+                "Caller": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+                "Callee": "6C85F5D98DE94C0FFB5C82553B100D18566A58A5",
+                "Data": "60FE47B1000000000000000000000000000000000000000000000000000000000000002A",
+                "Value": 0,
+                "Gas": 999967
               },
-              "origin": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-              "tx_id": "0BD3A724C836044F4588D43D529D732DA2D43C2A",
-              "return": "",
-              "exception": ""
+              "Origin": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+              "TxID": "06601173408AF45520BF4720D3FF4DBA5894CEB6",
+              "Return": "",
+              "Exception": ""
             },
-            "id": "RdGM9SDOrSakH1jaEMy+VYa8g41KWYcqlgiSA22Je6E=",
+            "id": "NL3djViQVFD5bkeQ/k2BzW8flBJ6oMitveGwBEgI9Bo=",
             "jsonrpc": "2.0"
           }
         }
@@ -85,11 +85,11 @@
           "value": {
             "method": "burrow.call",
             "params": {
-              "from": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-              "address": "5115562952C5F422012F89EA12E60FD8B56CD7B2",
+              "from": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+              "address": "6C85F5D98DE94C0FFB5C82553B100D18566A58A5",
               "data": "6d4ce63c"
             },
-            "id": "taPo2e4JGB/12DVwYHik7uS7ROYkESfAkq6SjxvsX6o=",
+            "id": "X+lMRcYmxjqjYnplvLnorbq3hc5NDNuU8uzRsAU3zYM=",
             "jsonrpc": "2.0"
           }
         }
@@ -99,74 +99,20 @@
           "done": false,
           "value": {
             "result": {
-              "return": "000000000000000000000000000000000000000000000000000000000000002a",
-              "gas_used": 46
+              "Return": "000000000000000000000000000000000000000000000000000000000000002A",
+              "GasUsed": 46
             },
-            "id": "taPo2e4JGB/12DVwYHik7uS7ROYkESfAkq6SjxvsX6o=",
+            "id": "X+lMRcYmxjqjYnplvLnorbq3hc5NDNuU8uzRsAU3zYM=",
             "jsonrpc": "2.0"
           }
         }
       }
     ]
   },
-  "initDir": {
-    "genesis.json": {
-      "genesis_time": "2017-04-27T20:35:38.614Z",
-      "chain_id": "test-HTTP",
-      "params": {
-        "global_permissions": {
-          "base": {
-            "perms": 2302,
-            "set": 16383
-          },
-          "roles": []
-        }
-      },
-      "accounts": [
-        {
-          "address": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-          "amount": 99999999999999,
-          "name": "test-http_full_000",
-          "permissions": {
-            "base": {
-              "perms": 16383,
-              "set": 16383
-            },
-            "roles": []
-          }
-        }
-      ],
-      "validators": [
-        {
-          "pub_key": [
-            1,
-            "A923463492C95680DBEC3E2F16958D0507D5A8EAC37D860626C7C2B4289859AE"
-          ],
-          "amount": 9999999999,
-          "name": "test-http_full_000",
-          "unbond_to": [
-            {
-              "address": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-              "amount": 9999999999
-            }
-          ]
-        }
-      ]
-    },
-    "priv_validator.json": {
-      "address": "74CBE1386B3CD8E66863B571EA084A120D532D9E",
-      "pub_key": [
-        1,
-        "A923463492C95680DBEC3E2F16958D0507D5A8EAC37D860626C7C2B4289859AE"
-      ],
-      "priv_key": [
-        1,
-        "B99699BB295C6F9CC2BEF3B3F680BECE84986F186BF7996866CA5212BE96D04AA923463492C95680DBEC3E2F16958D0507D5A8EAC37D860626C7C2B4289859AE"
-      ],
-      "last_height": 0,
-      "last_round": 0,
-      "last_step": 0
-    }
+  "account": {
+    "address": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+    "pubKey": "091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
+    "privKey": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706"
   },
   "before": []
 }

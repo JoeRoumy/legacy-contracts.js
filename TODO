@@ -1,0 +1,4 @@
+Remember to add in pretest: "standard" to the package.json before you finish
+
+Fix the non-determinism of events when running server vector tests
+Move smoke-test to vector type test

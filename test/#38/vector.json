@@ -7,13 +7,13 @@
           "value": {
             "method": "burrow.transactAndHold",
             "params": {
-              "priv_key": "65A021A928A8479F8615D203AB902FE10F0B5C4635F1765711A2AA358AEC680DB76F0D961F8DFE74E3BD03AD1BFA9D7BF1B12AD240FF154EBA7A056850DE2ECB",
+              "priv_key": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
               "address": "",
               "data": "606060405260448060106000396000f3606060405260e060020a60003504633bdab8bf8114601a575b005b60187f57050ab73f6b9ebdd9f76b8d4997793f48cf956e965ee070551b9ca0bb71584e60006060a156",
               "gas_limit": 1000000,
               "fee": 1
             },
-            "id": "1XPHC2wLv1alw9Fjg8mHwGYZAVTNclehLJ3U7udWFPM=",
+            "id": "ja4f+OCRbN9AgiUxoIRaxM+ZkqvtgimF0u1ULruCNeU=",
             "jsonrpc": "2.0"
           }
         }
@@ -23,19 +23,19 @@
           "done": false,
           "value": {
             "result": {
-              "call_data": {
-                "caller": "5AF2A7BE9E0FD9D1460F0456B811914FDE1BD77D",
-                "callee": "1CD8FE77D1FAFDDD6EC56C6DFB3260D0B2C1725E",
-                "data": "606060405260448060106000396000F3606060405260E060020A60003504633BDAB8BF8114601A575B005B60187F57050AB73F6B9EBDD9F76B8D4997793F48CF956E965EE070551B9CA0BB71584E60006060A156",
-                "value": 0,
-                "gas": 999985
+              "CallData": {
+                "Caller": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+                "Callee": "322A2B9BE53C6AA69CFCFBE09100B41B11434793",
+                "Data": "606060405260448060106000396000F3606060405260E060020A60003504633BDAB8BF8114601A575B005B60187F57050AB73F6B9EBDD9F76B8D4997793F48CF956E965EE070551B9CA0BB71584E60006060A156",
+                "Value": 0,
+                "Gas": 999985
               },
-              "origin": "5AF2A7BE9E0FD9D1460F0456B811914FDE1BD77D",
-              "tx_id": "5146EBED9F5D2D257D3A9BC425DAD9E6D28CF6BE",
-              "return": "606060405260E060020A60003504633BDAB8BF8114601A575B005B60187F57050AB73F6B9EBDD9F76B8D4997793F48CF956E965EE070551B9CA0BB71584E60006060A156",
-              "exception": ""
+              "Origin": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+              "TxID": "AEE6179A3EAB36157170C96D72642058543CA8F7",
+              "Return": "606060405260E060020A60003504633BDAB8BF8114601A575B005B60187F57050AB73F6B9EBDD9F76B8D4997793F48CF956E965EE070551B9CA0BB71584E60006060A156",
+              "Exception": ""
             },
-            "id": "1XPHC2wLv1alw9Fjg8mHwGYZAVTNclehLJ3U7udWFPM=",
+            "id": "ja4f+OCRbN9AgiUxoIRaxM+ZkqvtgimF0u1ULruCNeU=",
             "jsonrpc": "2.0"
           }
         }
@@ -46,9 +46,9 @@
           "value": {
             "method": "burrow.eventSubscribe",
             "params": {
-              "event_id": "Log/1CD8FE77D1FAFDDD6EC56C6DFB3260D0B2C1725E"
+              "event_id": "Log/322A2B9BE53C6AA69CFCFBE09100B41B11434793"
             },
-            "id": "9cSgdobX/0t6p7gEz+CjV+ATiVQ/n/T3EKsC01oouB4=",
+            "id": "rT2nwNq/R5D8qKL95X5DDG5xyt5VAGvHSwKvfGhOkL4=",
             "jsonrpc": "2.0"
           }
         }
@@ -60,7 +60,7 @@
             "result": {
               "sub_id": "0"
             },
-            "id": "9cSgdobX/0t6p7gEz+CjV+ATiVQ/n/T3EKsC01oouB4=",
+            "id": "rT2nwNq/R5D8qKL95X5DDG5xyt5VAGvHSwKvfGhOkL4=",
             "jsonrpc": "2.0"
           }
         }
@@ -71,13 +71,13 @@
           "value": {
             "method": "burrow.transactAndHold",
             "params": {
-              "priv_key": "65A021A928A8479F8615D203AB902FE10F0B5C4635F1765711A2AA358AEC680DB76F0D961F8DFE74E3BD03AD1BFA9D7BF1B12AD240FF154EBA7A056850DE2ECB",
-              "address": "1CD8FE77D1FAFDDD6EC56C6DFB3260D0B2C1725E",
+              "priv_key": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
+              "address": "322A2B9BE53C6AA69CFCFBE09100B41B11434793",
               "data": "3bdab8bf",
               "gas_limit": 1000000,
               "fee": 1
             },
-            "id": "5j2yAfInWvXEY1O95H9DJl/kvkXAnl4SqeeUCRaT/vY=",
+            "id": "exC7f6hJ0n+FgrC2MRF6U+7LK1ojEfabdSoZc3f8A3I=",
             "jsonrpc": "2.0"
           }
         }
@@ -87,19 +87,19 @@
           "done": false,
           "value": {
             "result": {
-              "call_data": {
-                "caller": "5AF2A7BE9E0FD9D1460F0456B811914FDE1BD77D",
-                "callee": "1CD8FE77D1FAFDDD6EC56C6DFB3260D0B2C1725E",
-                "data": "3BDAB8BF",
-                "value": 0,
-                "gas": 999968
+              "CallData": {
+                "Caller": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+                "Callee": "322A2B9BE53C6AA69CFCFBE09100B41B11434793",
+                "Data": "3BDAB8BF",
+                "Value": 0,
+                "Gas": 999968
               },
-              "origin": "5AF2A7BE9E0FD9D1460F0456B811914FDE1BD77D",
-              "tx_id": "138C835B8E17178FC470EF23BFA99F243B3FC499",
-              "return": "",
-              "exception": ""
+              "Origin": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+              "TxID": "53DCF57DF87F1FB132CEDBC4368E7D65AA4229AC",
+              "Return": "",
+              "Exception": ""
             },
-            "id": "5j2yAfInWvXEY1O95H9DJl/kvkXAnl4SqeeUCRaT/vY=",
+            "id": "exC7f6hJ0n+FgrC2MRF6U+7LK1ojEfabdSoZc3f8A3I=",
             "jsonrpc": "2.0"
           }
         }
@@ -112,7 +112,7 @@
             "params": {
               "sub_id": "0"
             },
-            "id": "x+u11urS3s75oUCpjfrusCRmGQdWxYNOppm3WJVEmXo=",
+            "id": "xKqiSFoE8WzJeZqe7sZ9SBTCQd03+Luf/2yy/UPKmik=",
             "jsonrpc": "2.0"
           }
         }
@@ -124,80 +124,29 @@
             "result": {
               "events": [
                 {
-                  "address": "0000000000000000000000001CD8FE77D1FAFDDD6EC56C6DFB3260D0B2C1725E",
-                  "topics": [
-                    "57050AB73F6B9EBDD9F76B8D4997793F48CF956E965EE070551B9CA0BB71584E"
-                  ],
-                  "data": "",
-                  "height": 1
+                  "Event": "Log/322A2B9BE53C6AA69CFCFBE09100B41B11434793",
+                  "EventDataLog": {
+                    "Address": "322A2B9BE53C6AA69CFCFBE09100B41B11434793",
+                    "Topics": [
+                      "57050AB73F6B9EBDD9F76B8D4997793F48CF956E965EE070551B9CA0BB71584E"
+                    ],
+                    "Data": "",
+                    "Height": 1
+                  }
                 }
               ]
             },
-            "id": "x+u11urS3s75oUCpjfrusCRmGQdWxYNOppm3WJVEmXo=",
+            "id": "xKqiSFoE8WzJeZqe7sZ9SBTCQd03+Luf/2yy/UPKmik=",
             "jsonrpc": "2.0"
           }
         }
       }
     ]
   },
-  "initDir": {
-    "genesis.json": {
-      "genesis_time": "2017-04-27T20:31:56.291Z",
-      "chain_id": "test-_38",
-      "params": {
-        "global_permissions": {
-          "base": {
-            "perms": 2302,
-            "set": 16383
-          },
-          "roles": []
-        }
-      },
-      "accounts": [
-        {
-          "address": "5AF2A7BE9E0FD9D1460F0456B811914FDE1BD77D",
-          "amount": 99999999999999,
-          "name": "test-_38_full_000",
-          "permissions": {
-            "base": {
-              "perms": 16383,
-              "set": 16383
-            },
-            "roles": []
-          }
-        }
-      ],
-      "validators": [
-        {
-          "pub_key": [
-            1,
-            "B76F0D961F8DFE74E3BD03AD1BFA9D7BF1B12AD240FF154EBA7A056850DE2ECB"
-          ],
-          "amount": 9999999999,
-          "name": "test-_38_full_000",
-          "unbond_to": [
-            {
-              "address": "5AF2A7BE9E0FD9D1460F0456B811914FDE1BD77D",
-              "amount": 9999999999
-            }
-          ]
-        }
-      ]
-    },
-    "priv_validator.json": {
-      "address": "5AF2A7BE9E0FD9D1460F0456B811914FDE1BD77D",
-      "pub_key": [
-        1,
-        "B76F0D961F8DFE74E3BD03AD1BFA9D7BF1B12AD240FF154EBA7A056850DE2ECB"
-      ],
-      "priv_key": [
-        1,
-        "65A021A928A8479F8615D203AB902FE10F0B5C4635F1765711A2AA358AEC680DB76F0D961F8DFE74E3BD03AD1BFA9D7BF1B12AD240FF154EBA7A056850DE2ECB"
-      ],
-      "last_height": 0,
-      "last_round": 0,
-      "last_step": 0
-    }
+  "account": {
+    "address": "0CC835E75E6E3DD60195F2AF69B4AA9BEFFA6D2B",
+    "pubKey": "091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706",
+    "privKey": "FBC2514DE7579AC8161F5A4F4B6C8379EC8BF84456D98A62B48CC2938D637E16091CF7750C18B1378284B1AE477D00ABA41EC8EDA96D8CDB6D78156254170706"
   },
   "before": []
 }
